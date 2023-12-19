@@ -9,6 +9,3 @@ def generate_password(length=10):
         characters = string.ascii_letters + string.digits + string.punctuation
         password = ''.join(random.choice(characters) for i in range(length))
         return password
-
-# Test the function
-print(generate_password(10))
