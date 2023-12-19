@@ -9,10 +9,5 @@ setup(
     author_email='shekharhatture20@gmail.com',  # Your email
     license='MIT',  
     packages=['Shuyaa'],
-    install_requires=[
-        'string',
-        'random',
-    ],  
     zip_safe=False 
 )
-
